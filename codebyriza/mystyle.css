@@ -1,0 +1,119 @@
+body {
+  margin: 0px;
+}
+header {
+  height: 60px;
+  background: #2f6073;
+  color: white;
+  display: flex;
+  line-height: 30px;
+}
+header img {
+  height: 90px;
+  margin-left: 120px;
+}
+.date {
+  margin: 0px;
+  line-height: 7px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.nav-1 ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+.with-border-right {
+  border-right: 1px solid white;
+}
+.nav-1 li {
+  padding: 0px 15px;
+  font-size: 14px;
+}
+.nav-2 ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  width: 400px;
+  margin-left: 100px;
+}
+.nav-2 li {
+  padding: 0 15px;
+}
+.stripes-pattern {
+  text-align: center;
+  margin-top: 5px;
+  height: 150px;
+  background: rgba(182, 206, 255, 0.2);
+}
+#ads {
+  margin: 5px;
+  height: 140px;
+}
+main h1 {
+  text-align: center;
+  color: #2f6073;
+}
+.search-section {
+  text-align: center;
+  margin: 0px;
+}
+.word-search {
+  width: 700px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+.button {
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  width: 50px;
+}
+.button:hover {
+  background: #2f6073;
+}
+.under-search {
+  display: flex;
+  text-align: center;
+  width: 750px;
+  margin: auto;
+  margin-top: 0px;
+  font-size: 21px;
+  color: white;
+}
+.dictionary {
+  background: #113e59;
+  width: 378px;
+  height: 50px;
+  line-height: 50px;
+}
+.thesaurus {
+  background: #8c3503;
+  width: 378px;
+  height: 50px;
+  line-height: 50px;
+}
+.suggested {
+  text-align: center;
+  font-size: 19px;
+}
+footer {
+  background: rgba(182, 206, 255, 0.5);
+  height: 70px;
+  color: #124559;
+}
+.inside-footer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 750px;
+  margin: auto;
+}
+footer p {
+  line-height: 40px;
+}
+footer a {
+  margin-left: 180px;
+  text-decoration: none;
+  line-height: 75px;
+}
